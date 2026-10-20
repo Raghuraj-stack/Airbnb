@@ -1,7 +1,7 @@
 import React, { createContext } from 'react'
 export const authDataContext = createContext()
 function AuthContext({children}) {
-    let serverUrl = "http://localhost:8000"
+    let serverUrl = "https://airbnb-backend-0d0q.onrender.com"
 
     let value = {
     serverUrl    
